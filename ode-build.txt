@@ -12,3 +12,6 @@ uses libccd to handle pairs of geoms that don't have yet specialized tests.
 Specify options before the toolset when running Premake, like so:
 
 premake4 --with-demos --with-tests --with-gimpact --with-libccd vs2008
+
+
+http://robotics.naist.jp/~akihiko-y/doxy/ode0.9/index.html
