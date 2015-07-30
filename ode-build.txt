@@ -1,0 +1,14 @@
+Several configuration options are available, the most notable include:
+--with-demos
+includes the demo applications and Drawstuff library.
+--with-tests
+includes the automated test suite, recommended if you intend to modify ODE.
+--no-trimesh
+excludes support for triangle mesh collision geometries, reducing the size of the library.
+--with-gimpact
+uses the GIMPACT library to check for triangle mesh collisions instead of OPCODE.
+--with-libccd
+uses libccd to handle pairs of geoms that don't have yet specialized tests.
+Specify options before the toolset when running Premake, like so:
+
+premake4 --with-demos --with-tests --with-gimpact --with-libccd vs2008
